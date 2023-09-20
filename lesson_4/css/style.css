@@ -1,0 +1,33 @@
+@import url('reset.css');
+
+h1 {
+   color: #161616;
+}
+header a {
+   color: blue;
+}
+
+.main-block > p{
+   color:red;
+   }
+[class*="-info"] {
+   color: #cccccc;
+}
+.lorem-text * {
+   color: #cccccc;
+}
+.footer-text ~ p {
+   color: #68e44f;
+}
+.types-of-fishing.main-text{
+	color: brown;
+}
+p.one {
+   color: #68e44f;
+}
+.text-samples-inner + p {
+   color: aqua;
+}
+.text-samples-inner > p {
+   color: bisque;
+}
