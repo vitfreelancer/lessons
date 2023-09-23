@@ -1,0 +1,122 @@
+@import url('reset.css');
+
+/* inport fonts */
+/* !for homework */
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,regular,600,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Inter:300,regular,600&display=swap");
+
+/* ========================================================*/
+/* for practice*/
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:regular,600&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Sofia+Sans:300,600&display=swap");
+
+
+/* !another method */
+/* for practice */
+
+@font-face {
+   font-family: "PolarSnow";
+   src: url("../fonts/Polar\ Snow.woff") format("woff"),
+        url("../fonts/Polar\ Snow.woff2") format("woff2");  
+   font-display: swap;
+   font-weight: 400;
+   font-style: normal;
+}
+@font-face {
+   font-family: "Roboto";
+   src: url("../fonts/Roboto-Light.woff") format("woff"),
+        url("../fonts/Roboto-Light.woff2") format("woff2");  
+   font-display: swap;
+   font-weight: 300;
+   font-style: normal;
+}
+@font-face {
+   font-family: "Roboto";
+   src: url("../fonts/Roboto-Medium.woff") format("woff"),
+        url("../fonts/Roboto-Medium.woff2") format("woff2");  
+   font-display: swap;
+   font-weight: 500;
+   font-style: normal;
+}
+
+@font-face {
+   font-family: "Roboto";
+   src: url("../fonts/Roboto-Black.woff") format("woff"),
+        url("../fonts/Roboto-Black.woff2") format("woff2");  
+   font-display: swap;
+   font-weight: 900;
+   font-style: normal;
+}
+/* ========================================================*/
+
+body {
+   font-family: 'Inter', sans-serif;
+}
+[class*="__block"] p{
+   color: #7D7D7D;
+   font-size: 18px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 1.46;
+}
+.stamptitle {
+   font-family: "Poppins", serif;
+   font-style: normal;
+   line-height: 1.27;
+}
+h1 {
+   color: #953eb8;
+   font-size: 60px;
+
+}
+h2 {
+   color: #37393F;
+   font-size: 30px;
+   font-weight: 600;
+}
+h3 {
+   color: #37393F;
+   font-size: 22px;
+   font-weight: 700;
+}
+h4 {
+   font-weight: 600;
+   color: #6B77E5;
+}
+.list {
+   font-size: 18px;
+   font-style: normal;
+   font-weight: 500;
+   line-height: 1.46;
+   color: #7D7D7D;
+}
+footer {
+   color: #cccccc;
+}
+footer a {
+   text-decoration: underline;
+   color: #6B77E5;
+}
+mark + p {
+   font-family: "PolarSnow", sans-serif;
+   line-height: 1.47;
+   font-size: 22px;
+}
+mark + p + p {
+   font-family: "Roboto", sans-serif;
+   line-height: 1.47;
+   font-weight: 300;
+   font-size: 18px;
+}
+mark + p + p +p {
+   font-family: "Roboto", sans-serif;
+   line-height: 1.47;
+   font-weight: 500;
+   font-size: 16px;
+}
+mark + p + p + p + p{
+   font-family: "Roboto", sans-serif;
+   line-height: 1.47;
+   font-weight: 900;
+   font-size: 14px;
+}
