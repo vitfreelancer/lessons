@@ -1,0 +1,159 @@
+@import url('fonts.css');
+@import url('reset.css');
+
+body {
+   font-family: 'Inter', sans-serif;
+   font-weight:400;
+   /* Спеціально прописав тільки сім'ю шрифтів, 
+   так як в макеті ювелірки теж використовується 
+   цей шрифт але іншого кольору та розміру.*/
+   padding: 50px 0px;
+}
+.consulting-template__block h1,
+.consulting-template__block h2,
+.consulting-template__block h3,
+.consulting-template__block h4 {
+   font-family: 'Poppins', sans-serif;
+   font-weight: 600;
+}
+h1 {
+   font-size: 50px;
+   text-align: center;
+   color: green;
+   text-shadow: 2px 2px 10px #84b785;
+   margin-bottom: 50px;
+}
+[class*="-homework"] {
+   max-width: 1189px;
+   margin: 0 auto;
+   padding: 0px 10px; /* Відступ, щоб на малих екранах не прилипав контент до країв в'юпорта*/
+}
+.consulting-homework {
+   margin-bottom: 50px;
+}
+.consulting-template__block {
+   max-width: 692px;
+   margin: 0 auto;
+   
+}
+.why-us img {
+   margin-bottom: 37px;
+}
+h2 {
+color: #37393F;
+font-size: 30px;
+line-height: 1.27;
+margin:0 0 13px 0px;
+}
+
+.consulting-template__block p,
+.consulting-template__block ul {
+font-size: 18px;
+color: #7D7D7D;
+line-height: 1.46;
+}
+.why-us h2 + .text{
+   margin-bottom: 42px;
+}
+.why-us h4 {
+   color: #6B77E5;
+   font-size: 20px;
+   line-height: 1.27;
+   margin:0 0 13px 0px;
+}
+.why-us h4 + .text{
+   margin-bottom: 40px;
+}
+.our-benefits  {
+   font-size: 0;
+}
+.consulting-template__block h3 {
+   color: #37393F;
+   font-size: 25px;
+   margin-bottom: 15px;
+}
+.our-benefits img{
+   max-width: 330px;
+   margin: 0 30px 0 0;
+   width: 100%;
+}
+.our-benefits-text {
+   display: inline-block;
+   max-width: 332px;
+}
+.our-benefits h4 {
+   color: #40DDB6;
+   font-size: 20px;
+   margin-bottom: 21px;
+}
+.our-benefits-text ul {
+   padding-left: 35px;
+}
+.our-benefits-text ul li {
+   margin-bottom: 30px;
+}
+
+.full-width__block {
+   background-color: #FFF9F4;
+}
+.jevelry-homework {
+   padding: 140px 0px;
+}
+.image-left {
+   display: inline-block;
+   margin-right: 22px;
+}
+.block-left, 
+.block-right {
+   display: inline-block;
+}
+.block-left {
+   padding-top: 21px;
+   max-width: 563px;
+  vertical-align:top;
+  margin-right: 38px;
+}
+.block-right {
+   text-align: right;
+  vertical-align:top;
+}
+.jevelry-homework h3 {
+   color: #D06B00;
+   font-size: 28px;
+   margin-bottom: 13px;
+}
+.jevelry-homework h2 {
+   font-family: 'DM Serif Text', serif;
+   font-size: 59px;
+   line-height: 1.46;
+   margin-bottom: 25px;
+}
+
+.jevelry-homework p {
+   font-size: 20px;
+   line-height: 1.8;
+   color: #474747;
+}
+.for-practice {
+   background-color: #D06B00;
+   padding: 50px 0;
+}
+.additional-code  {
+   max-width: 820px;
+   margin: 0 auto;
+   padding: 0px 10px; 
+}
+.sample-text {
+   overflow-y: scroll;
+   max-height: 150px;
+   margin-bottom: 25px;
+}
+.sample-text p {
+   margin-bottom: 20px;
+}
+.sample-text p span {
+   text-decoration: line-through;
+}
+.image-testing img {
+   vertical-align: top;
+}
