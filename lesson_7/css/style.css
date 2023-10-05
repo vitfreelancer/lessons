@@ -1,0 +1,331 @@
+@import url('fonts.css');
+@import url('reset.css');
+
+body {
+   font-family: 'Inter', sans-serif;
+   font-weight:400;
+   font-style: 18px;
+}
+.lesson-title {
+background-color: #cccccc;
+margin-bottom: 150px;
+}
+h1 {
+   text-align: center;
+   padding: 25px;;
+}
+.homework{
+   max-width: 1400px;
+   margin: 0 auto;
+   padding: 0 10px;
+}
+.homework-block-1 {
+   max-width: 1218px;
+   margin: 0 auto;
+}
+.homework-block-1, .homework-block-2, .homework-block-3 {
+   margin-bottom: 100px;
+}
+.homework-block-1 h5,
+.homework-block-1 h2 {
+   text-align: center;
+}
+.homework-block-1 h2 {
+   font-weight: 700;
+   font-family: 'Poppins', sans-serif;
+   line-height: 1.21;
+   font-size: 60px;
+   margin-bottom: 70px;
+   color: #37393F;
+}
+.homework-block-1 h5 {
+   font-weight: 500;
+   margin-bottom: 16px;
+   color: #37393F;
+}
+
+.square {
+   display: inline-block;
+   width: 12px;
+   height: 12px;
+   background-color: #40DDB6;
+}
+.homework-block-1 h3 {
+   font-size: 40px;
+   font-family: 'Poppins', sans-serif;
+   color: #37393F;
+   line-height: 1.21;
+   margin-bottom: 11px;
+   font-weight: 700;
+}
+.homework-block-1 h4 {
+   font-size: 30px;
+   font-family: 'Poppins', sans-serif;
+   color: #37393F;
+   font-weight: 700;
+   margin-bottom: 8px;
+}
+.homework-block-1 p {
+   margin-bottom: 32px;
+}
+.homework-block-1 h4 span {
+   font-weight: 400;
+   color: #40DDB6;
+}
+[class*="-inner"]  {
+   margin-bottom: 92px;
+}
+[class*="-inner"] h4 + p {
+   font-size: 18px;
+   line-height: 1.46;
+   color: #40DDB6;
+}
+[class*="-inner"] p a {
+   color: #40DDB6;
+}
+.homework-block-2 {
+   max-width: 830px;
+   margin: 0 auto;
+} 
+.homework-block-2 h2{
+   color: #37393F;
+   font-family: 'Poppins', sans-serif;
+   line-height: 1.27;
+   font-weight: 700;
+   font-size: 40px;
+   margin-bottom: 13px;
+}
+.homework-block-2 p {
+   line-height: 1.46;
+   color: #7D7D7D;
+}
+.homework-block-2 p {
+   margin-bottom: 35px;
+}
+.homework-block-2 li {
+   padding-left: 45px;
+   margin-bottom: 35px;
+   font-weight: 500;
+   color: #7D7D7D;
+}
+.homework-block-3 {
+   max-width: 1219px;
+   margin: 0 auto;
+   padding: 31px;
+}
+.homework-block-3 h2 {
+font-family: "CoreSansC-65Bold", sans-serif;
+font-size: 28px;
+line-height: 1.675;
+letter-spacing: 0.02;
+color: #3C4242;
+margin-bottom: 20px;
+}
+.homework-block-3 h2 span {
+   width: 6px;
+   height: 28px;
+   display: inline-block;
+   background-color: #8A33FD;
+   border-radius: 10px;
+   margin-left: -21px;
+   margin-right: 5px;
+}
+.homework-block-3 h3 {
+   font-family: "CoreSansC-65Bold", sans-serif;
+   font-size: 20px;
+   line-height: 1.675;
+   letter-spacing: 0.02;
+   color: #807D7E;
+   margin-bottom: 25px;
+}
+.homework-block-3 p {
+   font-family: "Causten", sans-serif;
+   font-size: 20px;
+   letter-spacing: 0.02;
+   line-height: 1.675;
+   color: #807D7E;
+   margin-bottom: 20px;
+}
+.homework-block-3 p span {
+   font-weight: 700;
+}
+.homework-block-3 a{
+   font-family: "CoreSansC-65Bold", sans-serif;
+   color: #807D7E;
+   font-size: 20px;
+   letter-spacing: 0.02;
+   line-height: 1.675;
+}
+.homework-block-4 {
+   max-width: 1103px;
+   margin: 0 auto 100px auto;
+   font-size: 0;
+}
+.jewelry-text {
+   max-width: 503px;
+   margin-right: 69px;
+   font-size: 30px;
+   color: #606060;
+   line-height: 1.4;
+   font-weight: 700;
+   font-family: 'Cormorant Infant', sans-serif;
+}
+.jewelry-text span {
+   color: #D58417;
+   margin-bottom: 27px;
+   font-family: 'Cormorant Infant', sans-serif;
+   font-size: 20px;
+   font-weight: 700;
+   text-transform: uppercase;
+}
+.jewelry-text h2 {
+   color: #000000;
+   font-family: 'Cormorant Infant', sans-serif;
+   font-size: 64px;
+   margin-bottom: 31px;
+   line-height: 1;
+}
+.img-1 {
+   width: 177px;
+   height: 336px;
+   border-radius: 235px;
+   border: 1px solid #502203;
+   padding-top: 14px;
+}
+.img-1 img {
+margin-left: -10px;
+}
+.img-2 img {
+   margin-left: -11px;
+   }
+.img-2 {
+   width: 308px;
+   margin-left: 30px;
+   height: 506px;
+   border-radius: 235px;
+   border: 1px solid #502203;
+   padding-top: 19px;
+}
+.jewelry-text,
+.jewelry-img,
+.img-1,
+.img-2 {
+   display: inline-block;
+   vertical-align: middle;
+}
+.training {
+   margin: 50px 0px;
+}
+.text-item {
+   background: url('../img/img-1.png') 0 0 / 20px no-repeat;
+   padding-left: 30px;
+}
+.training {
+   max-width: 1080px;
+   margin: 0 auto;
+   padding-bottom:100px;
+}
+.training h2 {
+   font-size: 60px;
+   font-family: 'Poppins', sans-serif;
+   text-align: center;
+   margin-bottom: 30px;
+}
+.training p {
+   line-height: 1.675;
+   font-size: 20px;
+   color: #807d7e;
+   font-family: "Causten", sans-serif;
+}
+.border-block1,
+.border-block2,
+.border-block3,
+.border-block4 {
+   max-width: 200px;
+   display: inline-block;
+   margin-right: 40px;
+   padding: 10px;
+}
+.border {
+   margin-bottom: 50px;
+}
+.border-block1 {
+   border: 3px solid #cccccc;
+   border-left: transparent;
+   border-radius: 5px;
+}
+.border-block2 {
+   border-top: 5px dashed #cccccc;
+   border-bottom: 2px dotted green;
+   border-left: 5px solid #502203;
+   border-right: 2px double #000;
+}
+.border-block3 {
+   border: 5px solid #8A33FD;
+   border-radius: 3px 25px;
+}
+.border-block4 {
+   border: 5px solid #cccccc;
+   border-radius: 25px 20px 50px 5px;
+   outline:5px solid rgba(255, 0, 0, 0.301);
+}
+.training h3 {
+   font-size: 20px;
+   line-height: 1.2;
+   color: #FF0000;
+   margin-bottom: 15px;
+}
+.circle-sample {
+   padding: 20px;
+   margin-bottom: 25px;
+   width: 250px;
+   height: 250px;
+   border-radius: 100%;
+   background-color: #3C4242;
+}
+.circle-small {
+   width: 100px;
+   height: 100px;
+   border-radius: 100%;
+   background-color: red;
+}
+.text-box-shadow {
+   box-shadow: 3px 3px 25px 5px #FF0000;
+  padding: 15px;
+  border-radius: 5px;
+  margin-bottom: 25px;
+}
+.text-box-shadow1 {
+   box-shadow: inset 5px 5px 20px 5px #FF0000;
+  padding: 15px;
+}
+.text-opacity {
+opacity: 1;
+}
+.text-opacity1 {
+opacity: 0.5;
+}
+.text-opacity2 {
+opacity: 0.1;
+}
+.box-shadow, 
+.opacity,
+.visibility {
+   margin-bottom: 25px;
+}
+.text-visibility {
+   visibility: visible;
+}
+.text-visibility1 p{
+   visibility: hidden;
+}
+.visibility > div {
+   margin-bottom: 25px;
+}
+.arrow {
+   width: 0;
+   height: 0;
+   border-style: solid;
+   border-width: 60px 0 60px 120px;
+   border-color: transparent transparent transparent #4f46e5;
+}
