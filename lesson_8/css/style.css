@@ -94,7 +94,7 @@ div.last {
    background-image: url('../img/icons/experience.svg');
    background-repeat: no-repeat;
    background-position: left top;
-   
+
 }
 .first-template__block--content-additional-inner-content.second {
    background-image: url('../img/icons/awards.svg');
@@ -330,13 +330,12 @@ margin-bottom: 150px;
    linear-gradient(55.95deg, rgba(0, 202, 91, 0.3) 0%,
    rgba(247, 94, 5, 0.3) 100%);
 }
-
 footer .lesson-title {
-   margin-bottom: 0px;
+   background-image: linear-gradient(90deg, #f2ff3a 0%, #3a89ff 50%, #f7e705dc 100%);
    padding: 25px;
 }
 footer p {
    text-align: center;
-   padding: 18px;;
+   padding: 25px;;
    color: #FFFFFF;
 }
