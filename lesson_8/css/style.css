@@ -330,6 +330,9 @@ margin-bottom: 150px;
    linear-gradient(55.95deg, rgba(0, 202, 91, 0.3) 0%,
    rgba(247, 94, 5, 0.3) 100%);
 }
+footer {
+   padding: 20px;
+}
 footer span {
    text-align: center;
    padding: 18px;;
