@@ -1,0 +1,71 @@
+@import url('fonts.css');
+@import url('reset.css');
+
+
+body {
+   font-family: 'Inter', sans-serif;
+   font-weight:400;
+   font-size: 18px;
+
+}
+.lesson-title {
+   background-image: linear-gradient(90deg, #f2ff3a 0%, #3a89ff 50%, #f7e705dc 100%);
+   text-align: center;
+   padding: 25px;
+}
+.intro {
+   max-width: 750px;
+   margin: 0 auto;
+}
+h1 {
+   text-align: center;
+   color: #FFFFFF;
+   margin-bottom: 25px;
+}
+ul.nav {
+margin-bottom: 50px;
+}
+ul.nav li {
+   margin-bottom:25px;
+}
+ul.nav li a {
+   color: blue;
+   text-decoration: underline;
+}
+ul.nav li:last-child {
+   margin-bottom:0px;
+}
+.block {
+   max-width: 1280px;
+   margin:0 auto;
+   padding: 25px;
+
+}
+.icons {
+   padding: 25px;
+   background-color: #a84d4d;
+}
+.icons > ul li {
+   margin-bottom: 20px;
+   color: #FFF;
+}
+.icons > ul li.img img{
+   max-width: 360px;
+}
+.icons > ul li:last-child {
+   margin-bottom: 0px;
+}
+.icons > ul li.logo {
+   background-color: #FFFFFF;
+   padding: 15px;
+   display: inline-block;
+}
+footer .lesson-title {
+   background-image: linear-gradient(90deg, #f2ff3a 0%, #3a89ff 50%, #f7e705dc 100%);
+   padding: 0px;
+}
+footer p {
+   text-align: center;
+   padding: 25px;
+   color: #FFFFFF;
+}
