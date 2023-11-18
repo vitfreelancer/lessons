@@ -179,3 +179,22 @@ color: #37393F;
    top: 120px;
    left: 0px;
 }
+.text-additional__content {
+   max-width: 1200px;
+   margin: 0 auto;
+}
+.text-additional {
+
+   position: relative;
+}
+
+.text-additional::after {
+content: '';
+background: #6B77E5;
+position: absolute;
+width: 500px;
+height: 500px;
+right:-250px;
+top: 20%;
+border-radius: 50%;
+}
