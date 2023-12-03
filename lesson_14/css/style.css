@@ -397,6 +397,10 @@ h1 {
    right: 10px;
 }
 
+.clock {
+   margin-bottom: 100px;
+}
+
 .clock-border {
    width: 250px;
    height: 250px;
@@ -469,4 +473,20 @@ h1 {
    100% {
       transform: rotate(360deg);
    }
+}
+
+.rectangle {
+   max-width: 800px;
+   margin: 0 auto;
+   width: 250px;
+   height: 250px;
+   background-color: aqua;
+   transition: all 0.3s ease;
+}
+
+.rectangle:hover {
+   border-radius: 50%;
+   transition: all 0.5s ease;
+   width: 350px;
+   height: 350px;
 }
