@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="css/style.css">
+   <title>Lesson 16 Homework</title>
+</head>
+
+<body>
+   <div class="wrapper">
+      <header class="header__container container-header">
+         <h1 class="container-header__title">
+            Forms
+         </h1>
+      </header>
+      <main class="main__container container-main">
+         <div class="form1">
+            <h2 class="form1-title">
+               My Info
+            </h2>
+            <h3 class="form1-subtitle">
+               Add Address
+            </h3>
+            <div class="form">
+               <form action="#" method="POST">
+                  <div class="form__group">
+                     <div class="form__col1">
+                        <label for="f-name">
+                           First Name*</label>
+                        <input type="text" id="f-name" tabindex="1" name="f-name" placeholder="First Name">
+
+                        <label for="country">
+                           Country / Region*</label>
+                        <input type="text" id="country" tabindex="3" name="country" placeholder="Country / Region">
+
+                        <label for="streetaddress">
+                           Street Address*</label>
+                        <input type="text" id="streetaddress" tabindex="5" name="streetaddress"
+                           placeholder="House number and street name">
+
+                        <label for="city">
+                           City*</label>
+                        <input type="text" id="city" tabindex="7" name="city" placeholder="Town / City">
+
+                        <label for="phone">
+                           Phone*</label>
+                        <input type="tel" id="phone" name="phone" tabindex="9" placeholder="Phone">
+                     </div>
+                     <div class="form__col2">
+                        <label for="last-name">
+                           Last Name*</label>
+                        <input type="text" id="last-name" tabindex="2" name="last-name" placeholder="Last Name">
+
+                        <label for="company">
+                           Company Name</label>
+                        <input type="text" id="company" tabindex="4" name="company" placeholder="Company (optional)">
+
+                        <label for="apt">
+                           Apt, suite, unit
+                        </label>
+                        <input type="text" id="apt" name="apt" tabindex="6"
+                           placeholder="apartment, suite, unit, etc. (optional)">
+
+                        <label for="state">
+                           State*
+                        </label>
+                        <select name="state" id="state" tabindex="8">
+                           <option value="State" selected>State</option>
+                           <option value="State 1">State 1</option>
+                           <option value="State 2">State 2</option>
+                           <option value="State 3">State 3</option>
+                           <option value="State 4">State 4</option>
+                           <option value="State 5">State 5</option>
+                        </select>
+
+                        <label for="zipcode">
+                           Postal Code*
+                        </label>
+                        <input type="tel" id="zipcode" name="zipcode" placeholder="Postal Code*" tabindex="10">
+                     </div>
+                  </div>
+                  <div class="form__group2">
+                     <label for="instruction">
+                        Delivery Instruction
+                     </label>
+                     <textarea id="instruction" name="instruction" placeholder="Delivery Instruction"
+                        tabindex="11"></textarea>
+
+                     <div class="checkboxes">
+                        <div class="checkbox-block">
+                           <input type="checkbox" tabindex="12" name="shipping-addresses" id="shipping-addresses"
+                              class="checkbox-custom">
+                           <label for="shipping-addresses" class="checkbox-custom-label">Set as default shipping
+                              address</label>
+                        </div>
+                        <div class="checkbox-block">
+                           <input type="checkbox" tabindex="13" name="billing-addresses" id="billing-addresses"
+                              class="checkbox-custom">
+                           <label for="billing-addresses" class="checkbox-custom-label">Set as default billing
+                              address</label>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="form-btn__block">
+                     <a href="#" class="form-btn blue">
+                        Save
+                     </a>
+                     <a href="#" class="form-btn grey">
+                        Cancel
+                     </a>
+                  </div>
+               </form>
+            </div>
+         </div>
+         <div class="form2">
+            <h2 class="form2-title">
+               Check Out
+            </h2>
+            <h3 class="form2-subtitle">
+               Billing Details
+            </h3>
+            <div class="form">
+               <form action="#" method="POST">
+                  <div class="main-form-group">
+                     <div class="form__group">
+                        <div class="form__col1">
+                           <label for="f-name1">
+                              First Name*</label>
+                           <input type="text" id="f-name1" tabindex="1" name="f-name" placeholder="First Name">
+
+                           <label for="country1">
+                              Country / Region*</label>
+                           <input type="text" id="country1" tabindex="3" name="country" placeholder="Country / Region">
+
+                           <label for="streetaddress1">
+                              Street Address*</label>
+                           <input type="text" id="streetaddress1" tabindex="5" name="streetaddress"
+                              placeholder="House number and street name">
+                        </div>
+                        <div class="form__col2">
+                           <label for="last-name1">
+                              Last Name*</label>
+                           <input type="text" id="last-name1" tabindex="2" name="last-name" placeholder="Last Name">
+
+                           <label for="company1">
+                              Company Name</label>
+                           <input type="text" id="company1" tabindex="4" name="company"
+                              placeholder="Company (optional)">
+
+                           <label for="apt1">
+                              Apt, suite, unit
+                           </label>
+                           <input type="text" id="apt1" name="apt" tabindex="6"
+                              placeholder="apartment, suite, unit, etc. (optional)">
+                        </div>
+                     </div>
+                     <div class="form__col-3">
+                        <div class="city-form2">
+                           <label for="city1">
+                              City*</label>
+                           <input type="text" id="city1" tabindex="7" name="city" placeholder="Town / City">
+                        </div>
+
+                        <div class="state-form2">
+                           <label for="state1">
+                              State*
+                           </label>
+                           <select name="state" id="state1" tabindex="8">
+                              <option value="State" selected>State</option>
+                              <option value="State 1">State 1</option>
+                              <option value="State 2">State 2</option>
+                              <option value="State 3">State 3</option>
+                              <option value="State 4">State 4</option>
+                              <option value="State 5">State 5</option>
+                           </select>
+                        </div>
+
+                        <div class="zip-form2">
+                           <label for="zipcode1">
+                              Postal Code*
+                           </label>
+                           <input type="tel" id="zipcode1" name="zipcode" placeholder="Postal Code*" tabindex="9">
+                        </div>
+                     </div>
+                     <div class="form__col4">
+                        <label for="phone1">
+                           Phone*</label>
+                        <input type="tel" id="phone1" name="phone" tabindex="10" placeholder="Phone">
+                     </div>
+                  </div>
+                  <div class="form-btn__block">
+                     <a href="#" class="form-btn blue delivery">
+                        Continue to delivery
+                     </a>
+                  </div>
+                  <div class="form__group3">
+                     <div class="checkboxes">
+                        <div class="checkbox-block">
+                           <input type="checkbox" tabindex="12" name="delivery-addresses" id="delivery-addresses"
+                              class="checkbox-custom">
+                           <label for="delivery-addresses" class="checkbox-custom-label">Save my information for a
+                              faster checkout</label>
+                        </div>
+                     </div>
+                  </div>
+               </form>
+            </div>
+         </div>
+         <div class="form3">
+            <span class="form3-subtitles">
+               Contact Us
+            </span>
+            <div class="form3-title">
+               Request A Call Back !
+            </div>
+            <div class="form3__block">
+               <form action="#" method="POST">
+                  <div class="c-form">
+                     <div class="form-row">
+                        <div class="col">
+                           <input type="text" placeholder="Your Name">
+                           <input type="tel" placeholder="Phone Number">
+                        </div>
+                        <div class="col">
+                           <input type="email" placeholder="Email Address">
+                           <input type="text" placeholder="Subject">
+                        </div>
+                     </div>
+                     <div class="form-row">
+                        <textarea name="message" id="your-message" placeholder="Message..."></textarea>
+                     </div>
+                     <div class="form-row last">
+                        <a href="#" class="btn">
+                           Submit
+                        </a>
+                     </div>
+                  </div>
+               </form>
+            </div>
+         </div>
+      </main>
+      <footer class="footer__container container-footer">
+         <h6 class="title">
+            End Of Homework #16
+         </h6>
+      </footer>
+   </div>
+</body>
+
+</html>
