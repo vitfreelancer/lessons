@@ -1,0 +1,131 @@
+@import "_fonts.scss";
+@import "_reset.scss";
+
+body {
+   font-family: "Inter", sans-serif;
+   color: #6d6d6d;
+}
+
+.wrapper {
+   min-height: 100%;
+   overflow: clip;
+   display: flex;
+   flex-direction: column;
+}
+main {
+   flex-grow: 1;
+   padding: 50px 0px;
+}
+main > * {
+   margin-bottom: 100px;
+}
+[class*="__container"] {
+   max-width: 1270px;
+   margin: 0 auto;
+   padding-left: 15px;
+   padding-right: 15px;
+}
+h1,
+h6 {
+   text-align: center;
+}
+.header,
+.footer {
+   padding: 25px;
+   font-size: 18px;
+}
+.main-inner {
+   width: 100%;
+}
+.banner-fashion {
+   display: flex;
+   color: #FFFFFF;
+   border-radius: 10px;
+   width: 100%;
+   justify-content: center;
+   @media(max-width:767px) {
+   flex-direction: column;
+   }
+   .col-fashion--left {
+      flex:0 0 49.5%;
+      border-radius: 15px 0px 0px 15px;
+      background: url('../img/fashion-banner-bg.png') center center no-repeat;
+      background-size: cover;
+      @media(max-width:767px) {
+            border-radius: 15px;
+         }
+      .content-fashion {
+         padding: 183px 74px;
+         @media(max-width:1280px) {
+            padding: 153px 50px;
+         }
+          @media(max-width:992px) {
+            padding: 110px 50px;
+         }
+         @media(max-width:767px) {
+            padding: 50px;
+         }
+      }
+      .content-fashion__title {
+         font-size: 34px;
+         font-family: 'Core Sans C';
+         font-weight: 900;
+         line-height: 1.47em;
+         letter-spacing: 0.21px;
+         margin-bottom: 30px;
+         @media(max-width:1280px) {
+         font-size: 28px;
+         }
+         @media(max-width:992px) {
+         font-size: 24px;
+         }
+      }
+      .content-fashion__text {
+         font-family: 'Causten';
+         font-weight: 300;
+         letter-spacing: 1px;
+         line-height: 1.2em;
+         font-size: 20px;
+         margin-bottom: 50px;
+         @media(max-width:1280px) {
+            .content-fashion__text {
+               font-size: 18px;
+            }
+         }
+         @media(max-width:992px) {
+            .content-fashion__text {
+               font-size: 16px;
+            }
+         }
+      }
+      .content-fashion__lnk {
+         padding: 12px 44px;
+         background-color: #FFF;
+         border-radius: 8px;
+         font-family: 'Causten';
+         font-weight: 600;
+         font-size: 18px;
+         color: #3C4242;
+         transition: all 0.3s;
+         &:hover {
+            background-color: #a7a8a8;
+            color: #FFF;
+         }
+      }
+   }
+   @media(min-width:767px) {
+      .col-fashion--right{
+      flex:0 0 51.5%;
+      border-radius: 0px 15px 15px 0px;
+      background: url('../img/fashion-banner-bg-1.png') center center no-repeat;
+      background-size: cover;
+   }
+   }
+}
+header {
+   border-bottom: 1px solid #f0f0f0;
+}
+footer {
+   border-top: 1px solid #f0f0f0;
+}
+

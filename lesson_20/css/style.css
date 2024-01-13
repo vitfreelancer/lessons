@@ -1,0 +1,287 @@
+@import url("https://fonts.googleapis.com/css?family=Inter:regular,500,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Montserrat:800&display=swap");
+@font-face {
+  font-family: "Core Sans C";
+  src: url("../fonts/CoreSansC-75ExtraBold.woff2") format("woff2"), url("../fonts/CoreSansC-75ExtraBold.woff2") format("woff");
+  font-display: swap;
+  font-weight: 800;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Core Sans C";
+  src: url("../fonts/CoreSansC-55Medium.woff2") format("woff2"), url("../fonts/CoreSansC-55Medium.woff") format("woff");
+  font-display: swap;
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Causten";
+  src: url("../fonts/Causten-Bold.woff2") format("woff2"), url("../fonts/Causten-Bold.woff") format("woff");
+  font-display: swap;
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Causten";
+  src: url("../fonts/Causten-Light.woff2") format("woff2"), url("../fonts/Causten-Light.woff") format("woff");
+  font-display: swap;
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Causten";
+  src: url("../fonts/Causten-Semi-Bold.woff2") format("woff2"), url("../fonts/Causten-Semi-Bold.woff") format("woff");
+  font-display: swap;
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Core Sans C";
+  src: url("../fonts/CoreSansC-85Heavy.woff2") format("woff2"), url("../fonts/CoreSansC-85Heavy.woff") format("woff");
+  font-display: swap;
+  font-weight: 900;
+  font-style: normal;
+}
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+*::before,
+*::after {
+  display: inline-block;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  display: inline-block;
+}
+
+li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: inherit;
+  font-size: inherit;
+}
+
+html,
+body {
+  line-height: 1;
+  height: 100%;
+}
+
+/* FORM */
+input,
+button,
+textarea {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+button {
+  color: inherit;
+  background-color: transparent;
+}
+
+button,
+select,
+option {
+  cursor: pointer;
+}
+
+input[type=text],
+input[type=email],
+input[type=tel],
+textarea {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  color: #6d6d6d;
+}
+
+.wrapper {
+  min-height: 100%;
+  overflow: clip;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+main {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  padding: 50px 0px;
+}
+
+main > * {
+  margin-bottom: 100px;
+}
+
+[class*=__container] {
+  max-width: 1270px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+h1,
+h6 {
+  text-align: center;
+}
+
+.header,
+.footer {
+  padding: 25px;
+  font-size: 18px;
+}
+
+.main-inner {
+  width: 100%;
+}
+
+.banner-fashion {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #FFFFFF;
+  border-radius: 10px;
+  width: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+@media (max-width: 767px) {
+  .banner-fashion {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+.banner-fashion .col-fashion--left {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 49.5%;
+          flex: 0 0 49.5%;
+  border-radius: 15px 0px 0px 15px;
+  background: url("../img/fashion-banner-bg.png") center center no-repeat;
+  background-size: cover;
+}
+@media (max-width: 767px) {
+  .banner-fashion .col-fashion--left {
+    border-radius: 15px;
+  }
+}
+.banner-fashion .col-fashion--left .content-fashion {
+  padding: 183px 74px;
+}
+@media (max-width: 1280px) {
+  .banner-fashion .col-fashion--left .content-fashion {
+    padding: 153px 50px;
+  }
+}
+@media (max-width: 992px) {
+  .banner-fashion .col-fashion--left .content-fashion {
+    padding: 110px 50px;
+  }
+}
+@media (max-width: 767px) {
+  .banner-fashion .col-fashion--left .content-fashion {
+    padding: 50px;
+  }
+}
+.banner-fashion .col-fashion--left .content-fashion__title {
+  font-size: 34px;
+  font-family: "Core Sans C";
+  font-weight: 900;
+  line-height: 1.47em;
+  letter-spacing: 0.21px;
+  margin-bottom: 30px;
+}
+@media (max-width: 1280px) {
+  .banner-fashion .col-fashion--left .content-fashion__title {
+    font-size: 28px;
+  }
+}
+@media (max-width: 992px) {
+  .banner-fashion .col-fashion--left .content-fashion__title {
+    font-size: 24px;
+  }
+}
+.banner-fashion .col-fashion--left .content-fashion__text {
+  font-family: "Causten";
+  font-weight: 300;
+  letter-spacing: 1px;
+  line-height: 1.2em;
+  font-size: 20px;
+  margin-bottom: 50px;
+}
+@media (max-width: 1280px) {
+  .banner-fashion .col-fashion--left .content-fashion__text .content-fashion__text {
+    font-size: 18px;
+  }
+}
+@media (max-width: 992px) {
+  .banner-fashion .col-fashion--left .content-fashion__text .content-fashion__text {
+    font-size: 16px;
+  }
+}
+.banner-fashion .col-fashion--left .content-fashion__lnk {
+  padding: 12px 44px;
+  background-color: #FFF;
+  border-radius: 8px;
+  font-family: "Causten";
+  font-weight: 600;
+  font-size: 18px;
+  color: #3C4242;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.banner-fashion .col-fashion--left .content-fashion__lnk:hover {
+  background-color: #a7a8a8;
+  color: #FFF;
+}
+@media (min-width: 767px) {
+  .banner-fashion .col-fashion--right {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 51.5%;
+            flex: 0 0 51.5%;
+    border-radius: 0px 15px 15px 0px;
+    background: url("../img/fashion-banner-bg-1.png") center center no-repeat;
+    background-size: cover;
+  }
+}
+
+header {
+  border-bottom: 1px solid #f0f0f0;
+}
+
+footer {
+  border-top: 1px solid #f0f0f0;
+}
